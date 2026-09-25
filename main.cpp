@@ -11,15 +11,12 @@ int main() {
   int score = 0;
   int attendance = 0;
 
-  // TODO: cout question, then cin, for score and for attendance
   cout << "Enter Overall Score: " << endl;
   cin >> score;
 
   cout << "Enter Attendance Percentage: " << endl;
   cin >> attendance;
 
-  // Edge values: (list just-below / exactly-on / just-above for each threshold here)
-  
   bool overallscore = false;
   bool overallattendance = false;
 
@@ -56,8 +53,5 @@ int main() {
     else {
     cout << "Class Score and Attendance Unsatisfactory." << endl;
   }
-  
-  // TODO: two comments that explain a choice (why invalid first, why && not ||, why >= not >)
-
   return 0;
 }
